@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 700px;
+  padding: 24px 0px;
+  background-image: url("../img/surfing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00d2ff;
+}
+
+.header__inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
