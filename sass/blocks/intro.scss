@@ -1,0 +1,44 @@
+.intro {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding: 24px 0px;
+  background-image: url("../img/surfing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00d2ff;
+  margin-bottom: 560px;
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 362px;
+    margin: 0 auto;
+    bottom: 0;
+    background-image: url("../img/Fade.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 362px;
+  }
+}
+
+.intro__slogan {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 200px;
+}
+
+.intro__slogan-title {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.intro__slogan-subtitle {
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+}

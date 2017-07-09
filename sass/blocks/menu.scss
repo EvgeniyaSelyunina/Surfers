@@ -1,5 +1,5 @@
 .menu {
-  width: 630px;
+  width: 546px;
 }
 
 .menu__list {
@@ -15,7 +15,12 @@
 
 .menu__link {
   font-size: 14px;
-  padding: 0px;
+  padding: 5px 5px;
   border: none;
   text-decoration: none;
+  color: #000000;
+  &:hover {
+    color: white;
+    background-color: #00b0ff;
+  }
 }
