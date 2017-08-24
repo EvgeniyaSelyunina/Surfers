@@ -9,6 +9,20 @@
   background-color: #00d2ff;
   margin-bottom: 400px;
   display: flex;
+  margin-top: 150px;
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 143px;
+    margin: 0 auto;
+    bottom: 0;
+    background-image: url("../img/About_us.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 143px;
+  }
 }
 
 .promo__desc {
@@ -33,4 +47,8 @@
   padding-bottom: 50px;
   font-size: 22px;
   line-height: 38px;
+}
+
+.promo__link {
+  color: #11b5ff;
 }
